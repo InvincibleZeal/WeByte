@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Ritesh Ganjewala">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Nova+Mono|Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="../main.css">
+  <title>Hackathon | WeByte</title>
+</head>
+<body>
+
+  <header class="wrapper">
+    <div id="brand">
+      <svg id="logo" width="40px" viewBox="0 0 266.6 244.7">
+      	<path id="logofill" d="M218.5,77l-12.9,22.3l-9.2-5.8l36-62.3L216.2,1.1l-49.4,40.5h-63L89,61L0.5,41.5v44.9l19.4,6l0.3,18.4
+      			L37,98.5l8.9,24.7l14.2-18.4l8.7,15.5l12.6-8.7l21,31.5l-36.8,1.3l-0.5,14.7l-16.5,4.5l-15.8-15.5l-1.6,22.3l-14.2,5l13.7,20.2
+      			l69.1-8.9l64.9,56.7l101.4-1.3V110.9L218.5,77z M115.8,80c-5.2,0-9.3-4.2-9.3-9.3c0-5.2,4.2-9.3,9.3-9.3c5.2,0,9.3,4.2,9.3,9.3
+      			C125.1,75.8,121,80,115.8,80z M191.2,76.7l-5.5,5.5L167.6,66l22.1-20.8l5.8,5l-16,15L191.2,76.7z"/>
+      	<path id="logostroke" s d="M219.3,80.6l-12.8,22.2l-13.4-8.5l36.5-63.1L215.4,4.9L167.7,44L105,44L90.1,63.8L3,44.7
+      		v39.9l19.4,6.1l0.2,15.3l15.6-11.4l8.5,23.6l13.7-17.8l9.2,16.4l12.4-8.6l24.9,37.4l-38.9,1.4l-0.5,14.3l-19.7,5.3l-12.9-12.7
+      		l-1.3,18.5L21,176.9L32,193l68.6-8.9l65.1,56.9l97.7-1.3l0.1-127.6L219.3,80.6z M115.6,82.6c-6.6,0-11.9-5.3-11.9-11.9
+      		s5.3-11.9,11.9-11.9s11.9,5.3,11.9,11.9S122.2,82.6,115.6,82.6z M163.9,65.9l25.6-24.1l9.6,8.3l-16,15.1l11.7,11.5l-9.1,8.9
+      		L163.9,65.9z"/>
+      </svg>
+      <h1><a href="/about.html">WeByte</a></h1>
+    </div>
+    <nav class="nav-bar">
+      <span>
+        <a href="/vision.html">
+          <svg class="button" width="120" height="50">
+              <rect x="5" y="5" class="border" width="110" height="40"/>
+          </svg>
+          <span>Vision</span>
+        </a>
+      </span>
+      <span>
+        <a href="/mission.html">
+          <svg class="button" width="120" height="50">
+              <rect x="5" y="5" class="border" width="110" height="40"/>
+          </svg>
+          <span>Mission</span>
+        </a>
+      </span>
+      <span>
+        <a href="/support.html">
+          <svg class="button" width="120" height="50">
+              <rect x="5" y="5" class="border" width="110" height="40"/>
+          </svg>
+          <span>Support</span>
+        </a>
+      </span>
+      <span>
+        <a href="/about.html">
+          <svg class="button" width="120" height="50">
+              <rect x="5" y="5" class="border" width="110" height="40"/>
+          </svg>
+          <span>About</span>
+        </a>
+      </span>
+    </nav>
+  </header>
+
+  <main id="event-des">
+    <nav>
+      <ul>
+        <li class="tablink active-tab" onclick= "openTab(this, 'info')"><span>INFO</span></li>
+        <li class="tablink" onclick= "openTab(this, 'pstat')"><span>PROBLEM STATEMENT</span></li>
+        <li class="tablink" onclick= "openTab(this, 'rules')"><span>RULES</span></li>
+        <li class="tablink" onclick= "openTab(this, 'register')"><span>REGISTER</span></li>
+        <li class="tablink" onclick= "openTab(this, 'resrcs')"><span>RESOURCES</span></li>
+      </ul>
+    </nav>
+    <div>
+      <div class="tabcontent active" id="info">
+        <h2>INFORMATION</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, nihil impedit nemo voluptas aliquam reprehenderit incidunt earum quas dicta nesciunt?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus repellat amet fugit fugiat, hic dolores in, ab doloremque eaque eum et adipisci ut est, autem velit unde, quod laboriosam atque.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil minus facere perferendis voluptatibus at numquam et aspernatur dolorem, vero, sunt cumque officiis, consequuntur. Nesciunt, unde.</p>
+      </div>
+      <div class="tabcontent" id="pstat">
+        <h2>PROLEM STATEMENT</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, nihil impedit nemo voluptas aliquam reprehenderit incidunt earum quas dicta nesciunt?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus repellat amet fugit fugiat, hic dolores in, ab doloremque eaque eum et adipisci ut est, autem velit unde, quod laboriosam atque.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil minus facere perferendis voluptatibus at numquam et aspernatur dolorem, vero, sunt cumque officiis, consequuntur. Nesciunt, unde.</p>
+      </div>
+      <div class="tabcontent" id="rules">
+        <h2>RULES</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, nihil impedit nemo voluptas aliquam reprehenderit incidunt earum quas dicta nesciunt?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus repellat amet fugit fugiat, hic dolores in, ab doloremque eaque eum et adipisci ut est, autem velit unde, quod laboriosam atque.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil minus facere perferendis voluptatibus at numquam et aspernatur dolorem, vero, sunt cumque officiis, consequuntur. Nesciunt, unde.</p>
+      </div>
+      <div class="tabcontent" id="register">
+        <h2>REGISTER</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, nihil impedit nemo voluptas aliquam reprehenderit incidunt earum quas dicta nesciunt?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus repellat amet fugit fugiat, hic dolores in, ab doloremque eaque eum et adipisci ut est, autem velit unde, quod laboriosam atque.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil minus facere perferendis voluptatibus at numquam et aspernatur dolorem, vero, sunt cumque officiis, consequuntur. Nesciunt, unde.</p>
+      </div>
+      <div class="tabcontent" id="resrcs">
+        <h2>RESOURCES</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, nihil impedit nemo voluptas aliquam reprehenderit incidunt earum quas dicta nesciunt?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus repellat amet fugit fugiat, hic dolores in, ab doloremque eaque eum et adipisci ut est, autem velit unde, quod laboriosam atque.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil minus facere perferendis voluptatibus at numquam et aspernatur dolorem, vero, sunt cumque officiis, consequuntur. Nesciunt, unde.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="wrapper">
+    <nav>
+      <a target="_blank" href="https://www.facebook.com/webyteofficial/"><img src="../img/facebook.png" alt="facebook"></a>
+      <a target="_blank" href="https://www.instagram.com/webyteofficial"><img src="../img/instagram.png" alt="instagram"></a>
+      <a target="_blank" href="https://twitter.com/webyteofficial"><img src="../img/twitter.png" alt="twitter"></a>
+      <a target="_blank" href="https://www.youtube.com/channel/UClQ57Iza0JDCH8X2JFwNHLg"><img src="../img/youtube.png" alt="youtube"></a>
+    </nav>
+    <p>Made with <img src="../img/heart.png" alt="love"> by <a href="https://www.instagram.com/_ganjewala_/" target="_blank">Ritesh Ganjewala</a></p>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js" charset="utf-8"></script>
+  <script src="../main.js" charset="utf-8"></script>
+  <script>
+  function openTab(e, tabname) {
+    $(".tabcontent").removeClass("active");
+    $(".tablink").removeClass("active-tab");
+    $(`#${tabname}`).addClass("active");
+    $(e).addClass("active-tab");
+  }
+  </script>
+</body>
+</html>
